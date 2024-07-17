@@ -1,0 +1,31 @@
+.section2 { 
+    grid-area: section2;
+    h3{
+        font-size: 1.5rem;
+        text-align: center;
+        padding-inline: 200px;
+        margin-top: 30px;
+        box-sizing: content-box;
+    }
+    .imginicio{
+        @include imginicio
+    }
+    .epigrafe{
+        @include epigrafe
+    }
+    .imggaleria{ 
+        width: 505px;
+        height: 1000px;
+        box-sizing:content-box
+
+    }
+    .img-circle{
+        @include imgcircle
+        
+    }
+    .epigrafe2{
+        @include epigrafe2
+    }
+    
+
+}

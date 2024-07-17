@@ -8,61 +8,63 @@
     <title>L.M Novias</title>
 </head>
 <body>
-    <header class="header">
+    <header >
         <a href="../index.html">
             <img src="../img/imglogo.jpg" alt="Logo L.M Novias" class="logo"></a>
         <a href="../index.html">
             <h1>L.M Novias</h1></a>
-        <nav class="nav">
-            <ul>
-                <li>
-                    <a href="../pages/nosotros.html"> Nosotros</a>
+        <nav>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <div class="inicio">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </div>
                 </li>
-                <li>
-                    <a href="../pages/galeria.html"> Galeria</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Explorar</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/pages/nosotros.html">Nosotros</a></li>
+                    <li><a class="dropdown-item" href="/pages/galeria.html">Galeria</a></li>
+                    <li><a class="dropdown-item" href="/pages/testimonios.html">Testimonios</a></li>
+                    <li><a class="dropdown-item" href="#">Contacto</a></li>
+                  </ul>
                 </li>
-                <li>
-                    <a href="../pages/testimonios.html"> Testimonio</a>
-                </li>
-                <li>
-                    <a href="../pages/contacto.html"> Contacto</a>
-                </li>
-            </ul>
+              </ul>
         </nav>
     </header>
-    <main>
+    <section class="section1">
         <section class="parrafo">
             <h2>Contacto</h2>
             <br>
-            <div class="contacto">
+            <div>
                 <label for="name">Nombre</label>
                 <input type="text" name="name">
             </div>
             <br>
-            <div class="contacto">
+            <div >
                 <label for="surname">Apellido</label>
                 <input type="text" name="surname">
             </div>
             <br>
-            <div class="contacto">
+            <div>
                 <label for="E-mail">E-mail</label>
                 <input type="text" name="E-mail">
             </div>
             <br>
-            <div class="contacto"> 
+            <div > 
                 <label for="Event">Evento</label>
                 <input type="text" name="event">
             </div>
-            <div class="consulta">
+            <div>
                 <label for="comentario">Deje su consulta</label>
                 <br>
                 <textarea name="Consulta" id=""></textarea>
             </div>
-            <div class="consulta">
+            <div>
                 <input type="submit" value="Envias consulta">
             </div>
         </section>
-    </main>
+    </section>
     
     <footer>
         <h4>E-mail: LMnovias2015@gmail.com</h4>

@@ -8,50 +8,121 @@
     <title>L.M Novias</title>
 </head>
 <body>
-    <header class="header">
+    <header >
         <a href="../index.html">
             <img src="../img/imglogo.jpg" alt="Logo L.M Novias" class="logo"></a>
         <a href="../index.html">
             <h1>L.M Novias</h1></a>
-        <nav class="nav">
-            <ul>
-                <li>
-                    <a href="../pages/nosotros.html"> Nosotros</a>
+        <nav>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <div class="inicio">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </div>
                 </li>
-                <li>
-                    <a href="../pages/galeria.html"> Galeria</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Explorar</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/pages/nosotros.html">Nosotros</a></li>
+                    <li><a class="dropdown-item" href="#">Galeria</a></li>
+                    <li><a class="dropdown-item" href="/pages/testimonios.html">Testimonios</a></li>
+                    <li><a class="dropdown-item" href="/pages/contacto.html">Contacto</a></li>
+                  </ul>
                 </li>
-                <li>
-                    <a href="../pages/testimonios.html"> Testimonio</a>
-                </li>
-                <li>
-                    <a href="../pages/contacto.html"> Contacto</a>
-                </li>
-            </ul>
+              </ul>
         </nav>
     </header>
-    <hr>
-    <main>
+    <section class="section1">
         <section class="parrafo">
             <h2>Galeria</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iusto atque voluptate ullam vel obcaecati accusamus provident fuga error aliquid commodi molestiae placeat, autem adipisci modi quam veniam facere dolorem quae quas aut? Eveniet recusandae odit voluptas quidem possimus fugit aperiam, reiciendis, vero repellat totam laborum. Sunt nulla quis modi mollitia totam placeat 
             </p>
         </section>
-        <section class="contenedor">
-            <img src="/img/vestidodenovia2.jpg" alt="" class="imginicio">
-            <img src="/img/vestidodenovia3.jpg" alt="" class="imginicio">
-            <img src="/img/vestidodenovia4.jpg" alt="" class="imginicio">
+    </section>
+        <section class="section2">
+            <div id="carouselExampleIndicators1" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img  class="imggaleria" src="/img/vestidodenovia2.jpeg" class="d-block w-100" alt="vestidodenovia">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="imggaleria" src="/img/vestidodenovia3.jpeg" class="d-block w-100" alt="vestidosdenovia">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="imggaleria" src="/img/vestidodenovia4.jpeg" class="d-block w-100" alt="vestidodenovia">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
-        <section class="contenedor">
-            <img src="/img/vestidodexv2.jpg" alt="" class="imginicio">
-            <img src="/img/vestidodexv3.jpg" alt="" class="imginicio">
-            <img src="/img/vestidodexv4.jpg" alt="" class="imginicio">
+        <section class="section3">
+            <div id="carouselExampleIndicators2" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="imggaleria" src="/img/vestidodexv2.jpeg" class="d-block w-100" alt="vestidodexv">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="imggaleria" src="/img/vestidodexv3.jpeg" class="d-block w-100" alt="vestidodexv">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="imggaleria" src="/img/vestidodexv4.jpeg" class="d-block w-100" alt="vestidodexv">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
-        <section class="contenedor">
-            <img src="/img/vestidodemadrina2.jpg" alt="" class="imginicio">
-            <img src="/img/vestidodemadrina3.jpg" alt="" class="imginicio">
-            <img src="/img/vestidodemadrina4.jpg" alt="" class="imginicio">
+        <section class="section4">
+            <div id="carouselExampleIndicators3" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="imggaleria" src="/img/vestidodemadrina2.jpg" class="d-block w-100" alt="vestidodemadrina">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="imggaleria" src="/img/vestidodemadrina3.jpg" class="d-block w-100" alt="vestidodemadrina">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="imggaleria" src="/img/vestidodemadrina4.jpg" class="d-block w-100" alt="vestidodemadrina">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
     </main>
 
